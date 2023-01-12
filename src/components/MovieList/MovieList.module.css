@@ -1,0 +1,30 @@
+.list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.item {
+  width: 200px;
+  transition: all 0.5s;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+  border-radius: 0 0 5% 5%;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+.title {
+  display: block;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+.wrap {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 50% 0%;
+}

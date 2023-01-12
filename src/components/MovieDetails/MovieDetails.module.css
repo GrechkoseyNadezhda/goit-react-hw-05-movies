@@ -1,0 +1,38 @@
+.details {
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid blue;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+}
+
+.detailsImg {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 3%;
+}
+
+.title {
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+  border-radius: 0 0 5% 5%;
+}
+.raiting {
+  font-size: 18px;
+}
+.wrap {
+  width: 700px;
+}
+.average {
+  font-weight: 700;
+}
+.descr {
+  margin-top: 10px;
+}
+.genres,
+.overview {
+  margin-top: 20px;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+  border-radius: 0 0 5% 5%;
+}

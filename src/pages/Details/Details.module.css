@@ -1,0 +1,40 @@
+.info {
+  position: relative;
+}
+.infoTitle {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 20px;
+}
+.goBackWrap {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.goBack {
+  display: inline-block;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px rgba(13, 6, 150, 0.7) inset;
+  border-radius: 5px;
+  transition: all 0.7s;
+}
+.goBack:hover {
+  background-color: rgba(13, 6, 150, 0.9);
+  color: white;
+}
+.infoList {
+  padding: 0 20px 10px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid blue;
+  box-shadow: 0 7px 12px -5px rgb(13 6 150 / 90%);
+}
+.NavLink {
+  font-size: 26px;
+  color: black;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.NavLink.active {
+  color: blue;
+}

@@ -1,0 +1,18 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.castItem {
+  width: 200px;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+  border-radius: 0 0 5% 5%;
+}
+.castImg {
+  height: 250px;
+  overflow: hidden;
+  transition: all 0.5s;
+  box-shadow: 0 5px 5px -5px rgba(13, 6, 150, 0.9);
+  border-radius: 50% 0%;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(13, 6, 150, 0.7) inset;
+  padding-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/751/751463.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 10px rgba(13, 6, 150, 0.7) inset;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+
+.input {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 5px;
+}

@@ -1,0 +1,24 @@
+.nav {
+  border-bottom: 2px solid blue;
+  padding: 10px 20px;
+  box-shadow: 0 7px 12px -5px rgb(13, 6, 150, 0.9);
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.NavLink {
+  font-size: 28px;
+  color: black;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.NavLink.active {
+  color: blue;
+}
+.link {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,18 @@
+.listReview {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.itemReview {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.date {
+  font-weight: 600;
+  font-size: 18px;
+}
+.title {
+  font-size: 22px;
+}
